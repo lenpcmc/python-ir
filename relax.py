@@ -11,7 +11,7 @@ def main():
     return x
 
 
-def relaxStruct(structure):
+def relaxStruct(structure :Structure) -> dict:
     relaxer = StructOptimizer()
     result = relaxer.relax(structure)
     #print(f"Relaxed structure {result['final_structure']}")

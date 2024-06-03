@@ -2,11 +2,11 @@ import numpy as np
 import os
 import matplotlib.pyplot as plt
 
-from rrufIR import *
+from rruffIR import *
 
 def main():
-    for file in os.listdir("rrufProcessed"):
-        wlen, val = rrufIR(f"rrufProcessed/{file}")
+    for file in os.listdir("rruffProcessed"):
+        wlen, val = rruffIR(f"rruffProcessed/{file}")
         plt.plot(wlen, val)
         plt.show()
     return
