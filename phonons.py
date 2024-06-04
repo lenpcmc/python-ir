@@ -1,6 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-<<<<<<< HEAD
 import os
 
 import scienceplots
@@ -21,7 +20,7 @@ cif_root = "./resources/cifs"
 def main():
     for file in os.listdir(f"{cif_root}"):
         fig, ax = plt.subplots()
-        fig, ax = vdosPlot(fname = f"{cif_root}/{file}", numAtoms = 100, width = 20)
+        fig, ax = vdosPlot(fname = f"{file}", numAtoms = 1000, width = 100)
         plt.savefig(f"{im_root}/{file[:-4]}.png", dpi = 500)
     return
 
@@ -45,8 +44,8 @@ def vdosPlot(fname: str = "betaCristobalite.cif", numAtoms = 20, width = 20):
     return fig, ax
 
 
-def vdos(fname: str, numAtoms: int = 20, exclude: bool = True, save: bool = False):
-    atoms = buildNumber(fname, numAtoms)
+def vdos(fname: str, numAtoms: int = 20, exclude: bool = True, save: bool = True):
+    atoms = buildNumber(f"{cif_root}/{fname}", numAtoms)
     Dyn = dynamical(atoms)
     D,C = np.linalg.eigh(Dyn)
     D = np.sqrt(D)

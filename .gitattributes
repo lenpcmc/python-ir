@@ -1,0 +1,9 @@
+resources/arrays/alphaCristobalite.npy filter=lfs diff=lfs merge=lfs -text
+resources/arrays/andalusite.npy filter=lfs diff=lfs merge=lfs -text
+resources/arrays/betaCristobalite.npy filter=lfs diff=lfs merge=lfs -text
+resources/arrays/danburite.npy filter=lfs diff=lfs merge=lfs -text
+resources/arrays/diopside.npy filter=lfs diff=lfs merge=lfs -text
+resources/arrays/olivineMG2.npy filter=lfs diff=lfs merge=lfs -text
+resources/arrays/tanzanite.npy filter=lfs diff=lfs merge=lfs -text
+resources/arrays/wollastonite.npy filter=lfs diff=lfs merge=lfs -text
+*.npy filter=lfs diff=lfs merge=lfs -text
