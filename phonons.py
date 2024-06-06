@@ -21,27 +21,26 @@ dConv = 15.63
 
 
 def main():
-    atoms = buildNumber(f"{cif_root}/betaCristobalite.cif", 1000)
-    #Dyn = dynamical(atoms)
-    #vdos(Dyn, save = f"{arr_root}/betaCristobalite.npy")
-
     for file in os.listdir(f"{cif_root}"):
         Dyn = np.load(f"{cif_root}/{file}")
-        vdosPlot(Dyn, width = 100, name = file[:-4])
-        #plot.show()
+        vdosPlot(Dyn, width = 100, title = file[:-4])
+        plot.show()
         #plt.savefig(f"{im_root}/{file[:-4]}.png", dpi = 500)
     return
 
 
-def vdosPlot(Dyn: np.ndarray = np.load("resources/arrays/betaCristobalite.npy"), width: int = 50, name = ""):
+def vdosPlot(Dyn: np.ndarray = np.load("resources/arrays/betaCristobalite.npy"), width: int = 50, title = ""):
     #Init
-    c,d = vdos(Dyn)
+    c,d = vdos(Dyn, exclude = 0)
+    d = d[d != 0]
 
     x = np.linspace(0, np.max(d), width)
     y = np.histogram(d, bins = np.linspace(0, np.max(d), width + 1))[0]
 
     fig,ax = plt.subplots()
     ax.plot(x, y)
+    ax.set_title(title)
+
 
     ax.set_xlabel(r"$\nu$ [THz]")
     ax.xaxis.set_tick_params(which = "minor", bottom = False)
@@ -49,23 +48,24 @@ def vdosPlot(Dyn: np.ndarray = np.load("resources/arrays/betaCristobalite.npy"),
     ax.set_yticklabels([])
     ax.yaxis.set_tick_params(which = "minor", bottom = False)
 
-    plt.savefig(f"{im_root}/{name}.png")
     plt.show()
+    plt.savefig(f"{im_root}/{title}.png")
     return ax
 
 
-def vdos(Dyn: np.ndarray, exclude: bool = False, save: str = False):
+def vdos(Dyn: np.ndarray, exclude: str = False, save: str = False):
     D,C = np.linalg.eigh(Dyn)
     D = np.sqrt(D)
 
     c = C * dConv
     d = D * dConv
 
-    if (exclude):
-        d = np.nan_to_num(d)
+    if bool(exclude):
+        d = np.nan_to_num(d, exclude)
 
     if bool(save):
         np.save(save, Dyn)
+
 
     return c,d
 
