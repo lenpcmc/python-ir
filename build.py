@@ -26,9 +26,11 @@ def buildNumber(filename :str, numAtoms :int = 1000) -> Atoms:
 def buildArray(filename :str, repeat :np.typing.ArrayLike = [1,1,1]) -> Atoms:
     chgnet = CHGNet.load()
     structure = Structure.from_file(filename)
-    relaxedStruct = relaxStruct(structure)["trajectory"].atoms
-    repeatStruct = relaxedStruct * repeat
-    return repeatStruct
+    relaxed = relaxStruct(structure)
+    relaxedAtoms = relaxed["trajectory"].atoms
+    relaxedStruct = relaxed["final_structure"]
+    repeatAtoms = relaxedAtoms * repeat
+    return relaxedStruct, relaxedAtoms
 
 
 def relaxStruct(structure :Structure) -> dict:

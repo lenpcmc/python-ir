@@ -22,31 +22,34 @@ dConv = 15.63
 
 def main():
     for file in os.listdir(f"{cif_root}"):
-        fig, ax = vdosPlot(fname = f"{file}", numAtoms = 1000, width = 100)
-        plt.savefig(f"{im_root}/{file[:-4]}.png", dpi = 500)
+        Dyn = np.load(f"{cif_root}/{file}")
+        fig,ax = plt.subplots()
+        ax = vdosPlot(ax, Dyn, width = 100)
+        plot.show()
+        #plt.savefig(f"{im_root}/{file[:-4]}.png", dpi = 500)
     return
 
 
-def vdosPlot(Dyn: np.ndarray = np.load("resources/arrays/betaCristobalite.npy"), width: int = 50):
+def vdosPlot(ax, Dyn: np.ndarray = np.load("resources/arrays/betaCristobalite.npy"), width: int = 50):
     #Init
     c,d = vdos(Dyn)
 
     x = np.linspace(0, np.max(d), width)
     y = np.histogram(d, bins = np.linspace(0, np.max(d), width + 1))[0]
 
-    fig,ax = plt.subplots()
-    ax.plot(x, y, 'o')
+    ax.plot(x, y)
 
     ax.set_xlabel(r"$\nu$ [THz]")
+    ax.xaxis.set_tick_params(which = "minor", bottom = False)
 
     ax.set_ylabel(r"VDOS [A.U.]")
     ax.set_yticklabels([])
     ax.yaxis.set_tick_params(which = "minor", bottom = False)
 
-    return fig, ax
+    return ax
 
 
-def vdos(Dyn: np.ndarray, exclude: bool = True, save: str = False):
+def vdos(Dyn: np.ndarray, exclude: bool = False, save: str = False):
     D,C = np.linalg.eigh(Dyn)
     D = np.sqrt(D)
 
