@@ -1,0 +1,642 @@
+[ 374.1225  376.051   377.9795 ... 3995.783  3997.711  3999.64  ]
+CHGNet v0.3.0 initialized with 412,525 parameters
+CHGNet will run on cuda:0
+CHGNet v0.3.0 initialized with 412,525 parameters
+CHGNet will run on cuda:1
+      Step     Time          Energy          fmax
+FIRE:    0 11:49:45     -472.867470        0.521665
+FIRE:    1 11:49:46     -472.917738        0.291625
+FIRE:    2 11:49:46     -472.955360        0.280163
+FIRE:    3 11:49:46     -472.961283        0.250344
+FIRE:    4 11:49:46     -472.965403        0.219805
+FIRE:    5 11:49:46     -472.971554        0.217197
+FIRE:    6 11:49:46     -472.976847        0.213970
+FIRE:    7 11:49:46     -472.979507        0.213018
+FIRE:    8 11:49:46     -472.980366        0.222260
+FIRE:    9 11:49:46     -472.980709        0.221633
+FIRE:   10 11:49:46     -472.981339        0.220341
+FIRE:   11 11:49:46     -472.982254        0.218581
+FIRE:   12 11:49:47     -472.983284        0.216343
+FIRE:   13 11:49:47     -472.984343        0.213729
+FIRE:   14 11:49:47     -472.985373        0.210884
+FIRE:   15 11:49:47     -472.986317        0.210389
+FIRE:   16 11:49:47     -472.987347        0.210593
+FIRE:   17 11:49:47     -472.988434        0.210553
+FIRE:   18 11:49:47     -472.989664        0.210091
+FIRE:   19 11:49:47     -472.991381        0.209025
+FIRE:   20 11:49:47     -472.993641        0.207163
+FIRE:   21 11:49:47     -472.996531        0.204357
+FIRE:   22 11:49:48     -472.999849        0.200503
+FIRE:   23 11:49:48     -473.003569        0.199356
+FIRE:   24 11:49:48     -473.007660        0.198351
+FIRE:   25 11:49:48     -473.012638        0.194124
+FIRE:   26 11:49:48     -473.018818        0.186137
+FIRE:   27 11:49:48     -473.025770        0.175754
+FIRE:   28 11:49:48     -473.033581        0.168122
+FIRE:   29 11:49:48     -473.042936        0.161558
+FIRE:   30 11:49:48     -473.053522        0.157943
+FIRE:   31 11:49:48     -473.065281        0.149124
+FIRE:   32 11:49:48     -473.078356        0.134686
+FIRE:   33 11:49:49     -473.092060        0.123296
+FIRE:   34 11:49:49     -473.106394        0.111659
+FIRE:   35 11:49:49     -473.120670        0.093480
+CHGNet v0.3.0 initialized with 412,525 parameters
+CHGNet will run on cuda:0
+CHGNet v0.3.0 initialized with 412,525 parameters
+CHGNet will run on cuda:0
+      Step     Time          Energy          fmax
+FIRE:    0 11:49:59     -100.153816        0.431565
+FIRE:    1 11:49:59     -100.163704        0.392164
+FIRE:    2 11:49:59     -100.179417        0.321440
+FIRE:    3 11:49:59     -100.194626        0.234513
+FIRE:    4 11:49:59     -100.204388        0.137429
+FIRE:    5 11:49:59     -100.206894        0.084550
+libGL error: did not find extension DRI_Mesa version 1
+libGL error: failed to load driver: swrast
+qt.qpa.xcb: atomName: bad atom 205
+qt.qpa.xcb: atomName: bad atom 206
+qt.qpa.xcb: atomName: bad atom 207
+qt.qpa.xcb: atomName: bad atom 208
+qt.qpa.xcb: atomName: bad atom 209
+qt.qpa.xcb: atomName: bad atom 210
+qt.qpa.xcb: atomName: bad atom 211
+qt.qpa.xcb: atomName: bad atom 212
+Qt: failed to retrieve the virtual modifier map from XKB
+qt.qpa.xkeyboard: failed to compile a keymap
+Qt: failed to retrieve the virtual modifier names from XKB
+Qt: failed to retrieve the virtual modifier map from XKB
+qt.qpa.xkeyboard: failed to compile a keymap
+Qt: failed to retrieve the virtual modifier names from XKB
+Qt: failed to retrieve the virtual modifier map from XKB
+qt.qpa.xkeyboard: failed to compile a keymap
+Qt: failed to retrieve the virtual modifier names from XKB
+Qt: failed to retrieve the virtual modifier map from XKB
+qt.qpa.xkeyboard: failed to compile a keymap
+Qt: failed to retrieve the virtual modifier names from XKB
+Qt: failed to retrieve the virtual modifier map from XKB
+qt.qpa.xkeyboard: failed to compile a keymap
+Cell([[5.014591236454659, 6.024390925709634e-09, -2.05053795155073e-08], [6.024390506020296e-09, 5.014591185886169, -5.759046214794892e-09], [-2.8475991884355797e-08, -7.997678395635737e-09, 6.964106919209023]])
+0
+qt = array([-0.24645948, -0.25462143, -0.2441964 , -0.23787507, -0.23687428,
+       -0.23380918,  0.09423415,  0.01731479,  0.11563256,  0.0101444 ,
+        0.00250687,  0.10698483,  0.00874787,  0.09004554,  0.10428401,
+        0.00463838,  0.08937305,  0.0016056 ])
+qtc = array([-0.24645948, -0.25462143, -0.2441964 , -0.23787507, -0.23687428,
+       -0.23380918,  0.09423415,  0.01731479,  0.11563256,  0.0101444 ,
+        0.00250687,  0.10698483,  0.00874787,  0.09004554,  0.10428401,
+        0.00463838,  0.08937305,  0.0016056 ])
+qh = array([ 0.00233299,  0.00233448,  0.00233371,  0.00233339,  0.00233402,
+        0.00233486, -0.01157201, -0.02102631, -0.0115721 , -0.02102676,
+       -0.02102629, -0.01157201, -0.0210273 , -0.01157192, -0.01157293,
+       -0.02102566, -0.01157304, -0.02102599])
+qhc = array([ 0.00233299,  0.00233448,  0.00233371,  0.00233339,  0.00233402,
+        0.00233486, -0.01157201, -0.02102631, -0.0115721 , -0.02102676,
+       -0.02102629, -0.01157201, -0.0210273 , -0.01157192, -0.01157293,
+       -0.02102566, -0.01157304, -0.02102599])
+mu = 4.451395430392375
+muc = 4.45139543039237
+q = array([-0.25684455, -0.26501314, -0.25458466, -0.2482619 , -0.24726393,
+       -0.24420258,  0.14574573,  0.1109112 ,  0.16714457,  0.1037428 ,
+        0.09610319,  0.15849643,  0.10234868,  0.14155674,  0.15579972,
+        0.0982319 ,  0.1408892 ,  0.09520059])
+qc = array([-0.25684455, -0.26501314, -0.25458466, -0.2482619 , -0.24726393,
+       -0.24420258,  0.14574573,  0.1109112 ,  0.16714457,  0.1037428 ,
+        0.09610319,  0.15849643,  0.10234868,  0.14155674,  0.15579972,
+        0.0982319 ,  0.1408892 ,  0.09520059])
+np.sum(q) = 4.85722573273506e-16
+np.sum(qc) = 1.3877787807814457e-16
+Traceback (most recent call last):
+  File "/home/lennon/python-ir/q2.py", line 272, in <module>
+    
+  File "/home/lennon/python-ir/q2.py", line 29, in main
+    plt.legend()
+  File "/home/lennon/.local/lib/python3.9/site-packages/matplotlib/pyplot.py", line 607, in show
+    return _get_backend_mod().show(*args, **kwargs)
+  File "/home/lennon/.local/lib/python3.9/site-packages/matplotlib/backend_bases.py", line 3567, in show
+    cls.mainloop()
+  File "/home/lennon/.local/lib/python3.9/site-packages/matplotlib/backends/backend_qt.py", line 633, in start_main_loop
+    qt_compat._exec(qapp)
+  File "/opt/python/python3.9.19/lib/python3.9/contextlib.py", line 126, in __exit__
+    next(self.gen)
+  File "/home/lennon/.local/lib/python3.9/site-packages/matplotlib/backend_bases.py", line 1686, in _allow_interrupt
+    old_sigint_handler(*handler_args)
+KeyboardInterrupt
+/home/lennon/python-ir/vdos.py:64: RuntimeWarning: invalid value encountered in sqrt
+  D = np.sqrt(D)
+0
+100
+200
+300
+400
+500
+600
+700
+800
+900
+1000
+1100
+1200
+1300
+1400
+1500
+1600
+qt = array([ 0.81155756,  0.83976235,  0.81272376, ..., -0.53575248,
+       -0.54008613, -0.53898743])
+qtc = array([ 0.81155846,  0.83976297,  0.8127243 , ..., -0.53575278,
+       -0.54008644, -0.53898774])
+qh = array([-0.00634228, -0.00634228, -0.00634228, ...,  0.00134747,
+        0.00134746,  0.00134541])
+qhc = array([-0.00634187, -0.00634049, -0.00634105, ...,  0.00134747,
+        0.00134747,  0.00134542])
+mu = -5.417779683415335
+muc = -5.4177826421767215
+q = array([ 0.77719647,  0.80540125,  0.77836267, ..., -0.52845221,
+       -0.53278586, -0.53169827])
+qc = array([ 0.7771996 ,  0.80541156,  0.77836988, ..., -0.52845248,
+       -0.53278614, -0.53169856])
+np.sum(q) = -1.4210854715202004e-14
+np.sum(qc) = 0.0
+ddm = array([[[-2.54572765e-19, -1.51990261e-18,  1.16467099e-18]],
+
+       [[-1.96549658e-19,  5.59061503e-19, -3.81114003e-19]],
+
+       [[-4.93718685e-19, -1.24429767e-18, -6.80519638e-19]],
+
+       ...,
+
+       [[ 4.51438583e-20,  4.71702188e-19, -7.17803577e-20]],
+
+       [[-1.38352937e-20, -8.00650113e-22, -8.55289878e-19]],
+
+       [[ 1.80357594e-18, -1.14286649e-18,  3.12233040e-19]]])
+[ 399.1926  401.1211  403.0496 ... 3995.783  3997.711  3999.64  ]
+CHGNet v0.3.0 initialized with 412,525 parameters
+CHGNet will run on cuda:1
+CHGNet v0.3.0 initialized with 412,525 parameters
+CHGNet will run on cuda:0
+      Step     Time          Energy          fmax
+FIRE:    0 18:12:04     -428.822067        0.124409
+FIRE:    1 18:12:04     -428.824150        0.091285
+/home/lennon/python-ir/vdos.py:64: RuntimeWarning: invalid value encountered in sqrt
+  D = np.sqrt(D)
+Exception ignored in: <function tqdm.__del__ at 0x7f71e8886c10>
+Traceback (most recent call last):
+  File "/home/lennon/.local/lib/python3.9/site-packages/tqdm/std.py", line 1148, in __del__
+    self.close()
+  File "/home/lennon/.local/lib/python3.9/site-packages/tqdm/std.py", line 1267, in close
+    if self.disable:
+AttributeError: 'tqdm' object has no attribute 'disable'
+Exception ignored in: <function tqdm.__del__ at 0x7f71e8886c10>
+Traceback (most recent call last):
+  File "/home/lennon/.local/lib/python3.9/site-packages/tqdm/std.py", line 1148, in __del__
+    self.close()
+  File "/home/lennon/.local/lib/python3.9/site-packages/tqdm/std.py", line 1267, in close
+    if self.disable:
+AttributeError: 'tqdm' object has no attribute 'disable'
+Exception ignored in: <function tqdm.__del__ at 0x7f71e8886c10>
+Traceback (most recent call last):
+  File "/home/lennon/.local/lib/python3.9/site-packages/tqdm/std.py", line 1148, in __del__
+    self.close()
+  File "/home/lennon/.local/lib/python3.9/site-packages/tqdm/std.py", line 1267, in close
+    if self.disable:
+AttributeError: 'tqdm' object has no attribute 'disable'
+Exception ignored in: <function tqdm.__del__ at 0x7f71e8886c10>
+Traceback (most recent call last):
+  File "/home/lennon/.local/lib/python3.9/site-packages/tqdm/std.py", line 1148, in __del__
+    self.close()
+  File "/home/lennon/.local/lib/python3.9/site-packages/tqdm/std.py", line 1267, in close
+    if self.disable:
+AttributeError: 'tqdm' object has no attribute 'disable'
+Exception ignored in: <function tqdm.__del__ at 0x7f71e8886c10>
+Traceback (most recent call last):
+  File "/home/lennon/.local/lib/python3.9/site-packages/tqdm/std.py", line 1148, in __del__
+    self.close()
+  File "/home/lennon/.local/lib/python3.9/site-packages/tqdm/std.py", line 1267, in close
+    if self.disable:
+AttributeError: 'tqdm' object has no attribute 'disable'
+Exception ignored in: <function tqdm.__del__ at 0x7f71e8886c10>
+Traceback (most recent call last):
+  File "/home/lennon/.local/lib/python3.9/site-packages/tqdm/std.py", line 1148, in __del__
+    self.close()
+  File "/home/lennon/.local/lib/python3.9/site-packages/tqdm/std.py", line 1267, in close
+    if self.disable:
+AttributeError: 'tqdm' object has no attribute 'disable'
+Exception ignored in: <function tqdm.__del__ at 0x7f71e8886c10>
+Traceback (most recent call last):
+  File "/home/lennon/.local/lib/python3.9/site-packages/tqdm/std.py", line 1148, in __del__
+    self.close()
+  File "/home/lennon/.local/lib/python3.9/site-packages/tqdm/std.py", line 1267, in close
+    if self.disable:
+AttributeError: 'tqdm' object has no attribute 'disable'
+0it [00:00, ?it/s]
+0it [00:00, ?it/s][A1404it [00:00, 28714.94it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29271.75it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29288.78it/s]
+3it [00:00, 20.43it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29189.92it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29310.36it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29168.95it/s]
+6it [00:00, 20.51it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29155.09it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29088.98it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29381.14it/s]
+9it [00:00, 20.54it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29180.22it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29362.24it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29358.14it/s]
+12it [00:00, 20.57it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29402.26it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29281.94it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29401.53it/s]
+15it [00:00, 20.61it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29327.88it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 27978.10it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29232.08it/s]
+18it [00:00, 20.46it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29310.94it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29375.57it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29434.60it/s]
+21it [00:01, 20.53it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29217.14it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29280.34it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29301.61it/s]
+24it [00:01, 20.55it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29217.00it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29193.53it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29337.37it/s]
+27it [00:01, 20.57it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29430.92it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29282.38it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29364.14it/s]
+30it [00:01, 20.60it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29458.01it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29407.40it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29514.70it/s]
+33it [00:01, 20.64it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29234.55it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29355.21it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29327.29it/s]
+36it [00:01, 20.64it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29256.04it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29407.70it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29510.41it/s]
+39it [00:01, 20.66it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29287.47it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29325.54it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29353.02it/s]
+42it [00:02, 20.65it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29374.54it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29311.38it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29543.13it/s]
+45it [00:02, 20.67it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29334.60it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29271.02it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29273.50it/s]
+48it [00:02, 20.66it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29387.74it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29342.49it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29464.20it/s]
+51it [00:02, 20.67it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29357.26it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29337.23it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29182.39it/s]
+54it [00:02, 20.66it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29216.71it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29123.94it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29282.67it/s]
+57it [00:02, 20.63it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29225.26it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29261.42it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29156.24it/s]
+60it [00:02, 20.61it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29268.84it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29221.20it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29218.59it/s]
+63it [00:03, 20.60it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29184.56it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29386.42it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29303.50it/s]
+66it [00:03, 20.61it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29333.28it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29246.60it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29233.82it/s]
+69it [00:03, 20.61it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29277.86it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29261.13it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 28788.50it/s]
+72it [00:03, 20.57it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29345.27it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29415.63it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29396.39it/s]
+75it [00:03, 20.61it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29396.10it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29232.95it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29373.37it/s]
+78it [00:03, 20.62it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29428.71it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29328.31it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29449.61it/s]
+81it [00:03, 20.64it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29331.82it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29373.08it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29330.36it/s]
+84it [00:04, 20.65it/s]
+0it [00:00, ?it/s][A1404it [00:00, 28991.31it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29273.64it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29326.27it/s]
+87it [00:04, 20.60it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29361.36it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29370.73it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29271.46it/s]
+90it [00:04, 20.61it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29309.63it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29252.41it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29397.27it/s]
+93it [00:04, 20.62it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29286.74it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29322.76it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29365.46it/s]
+96it [00:04, 20.63it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29259.10it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29300.88it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29338.83it/s]
+99it [00:04, 20.63it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29291.99it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29180.22it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29249.94it/s]
+102it [00:04, 20.62it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29238.76it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29327.29it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29231.79it/s]
+105it [00:05, 20.61it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29141.96it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29338.98it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29236.73it/s]
+108it [00:05, 20.61it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29251.25it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29101.35it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29188.90it/s]
+111it [00:05, 20.59it/s]
+0it [00:00, ?it/s][A1404it [00:00, 28959.09it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29141.81it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29132.59it/s]
+114it [00:05, 20.54it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29204.54it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29285.14it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29393.60it/s]
+117it [00:05, 20.56it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29272.77it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29276.70it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29285.72it/s]
+120it [00:05, 20.58it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29319.11it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29319.41it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29240.36it/s]
+123it [00:05, 20.59it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29364.73it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29457.42it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 28524.94it/s]
+126it [00:06, 20.56it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29290.97it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29317.65it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29346.29it/s]
+129it [00:06, 20.58it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29195.99it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29304.23it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29261.57it/s]
+132it [00:06, 20.59it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29265.20it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29376.59it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29281.65it/s]
+135it [00:06, 20.60it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29303.07it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29237.60it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29122.07it/s]
+138it [00:06, 20.60it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29173.00it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 28997.31it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29323.64it/s]
+141it [00:06, 20.58it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29174.01it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29293.45it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29317.51it/s]
+144it [00:06, 20.59it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29289.80it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29363.56it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29362.97it/s]
+147it [00:07, 20.61it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29287.76it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29245.58it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29252.41it/s]
+150it [00:07, 20.61it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29269.42it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29256.48it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29208.30it/s]
+153it [00:07, 20.60it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29254.15it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29432.83it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29305.25it/s]
+156it [00:07, 20.62it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29225.12it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29142.39it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29151.05it/s]
+159it [00:07, 20.59it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29113.29it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29168.23it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29034.48it/s]
+162it [00:07, 20.56it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29097.89it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29132.30it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29305.98it/s]
+165it [00:08, 20.56it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29210.33it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29087.26it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29221.20it/s]
+168it [00:08, 20.55it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29284.12it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29285.29it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29337.37it/s]
+171it [00:08, 20.58it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29288.35it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29280.05it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29245.58it/s]
+174it [00:08, 20.59it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29283.25it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29210.48it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29335.18it/s]
+177it [00:08, 20.59it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29312.55it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29305.69it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29133.45it/s]
+180it [00:08, 20.59it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29347.46it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29439.60it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29442.69it/s]
+183it [00:08, 20.62it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29287.33it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29310.80it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29316.93it/s]
+186it [00:09, 20.63it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29323.20it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29357.41it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29358.73it/s]
+189it [00:09, 20.64it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29282.23it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29208.01it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29319.99it/s]
+192it [00:09, 20.63it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29359.61it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29299.28it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29341.76it/s]
+195it [00:09, 20.64it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29275.39it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29328.75it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 28810.05it/s]
+198it [00:09, 20.60it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29215.55it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29245.00it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29328.61it/s]
+201it [00:09, 20.60it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29267.53it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29302.19it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29162.31it/s]
+204it [00:09, 20.60it/s]
+0it [00:00, ?it/s][A1404it [00:00, 29330.94it/s]
+
+0it [00:00, ?it/s][A1404it [00:00, 29227.58it/s]

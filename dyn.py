@@ -9,7 +9,7 @@ from pymatgen.io.ase import MSONAtoms, AseAtomsAdaptor
 from build import *
 
 def main():
-    atoms = buildArray("betaCristobalite.cif", [2,2,2])
+    atructure, atoms = buildArray("resources/cifs/betaCristobalite.cif", [5,5,5])
     Dyn = dynamical(atoms)
     plt.imshow(Dyn)
     plt.show()
@@ -38,6 +38,7 @@ def hessian(atoms: MSONAtoms, h: float = 1e-5, verbose: int = None) -> np.ndarra
 
     H: np.ndarray = np.array(H)
     return -1 * (H + H.T) / 2
+
 
 def hessian(atoms: MSONAtoms, h: float = 1e-5, verbose: int = None) -> np.ndarray:
     H: np.ndarray = np.array([ [ hessRow(atoms, i, pos, h) for pos in range(3) ] for i,_ in enumerate(atoms) ])

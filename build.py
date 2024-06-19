@@ -30,7 +30,8 @@ def buildArray(filename :str, repeat :np.typing.ArrayLike = [1,1,1]) -> Atoms:
     relaxedAtoms = relaxed["trajectory"].atoms
     relaxedStruct = relaxed["final_structure"]
     repeatAtoms = relaxedAtoms * repeat
-    return relaxedStruct, relaxedAtoms
+    repeatStruct = relaxedStruct.make_supercell(repeat)
+    return repeatStruct, repeatAtoms
 
 
 def relaxStruct(structure :Structure) -> dict:
